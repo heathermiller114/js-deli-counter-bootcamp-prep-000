@@ -15,7 +15,7 @@ function currentLine(katzDeliLine) {
   var newLine = [];
   if (katzDeliLine.length > 0) {
     for (var i = 0; i < katzDeliLine.length; i++) {
-    newLine.push(`${[i + 1]}. ${katzDeliLine[i]}${i === katzDeliLine.length ? '' : ','}`);
+    newLine.push(`The line is currently: ${[i + 1]}. ${katzDeliLine[i]}${i === katzDeliLine.length ? '' : ','}`);
     return newLine;
     }
   } else {
